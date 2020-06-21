@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn3classes1;
+package org.launchcode.java.demos.lsn3classes1.school;
 
 public class Teacher {
 
@@ -6,6 +6,10 @@ public class Teacher {
     private String lastName;
     private String subject;
     private int yearsTeaching;
+
+    public Teacher() {
+
+    }
 
     public String getFirstName() {
         return firstName;
